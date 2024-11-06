@@ -59,6 +59,9 @@
 //#include <User_Setups/Setup26_TTGO_T_Wristband.h>  // Setup file for ESP32 and TTGO T-Wristband ST7735 SPI bus TFT
 
 //#include <User_Setups/Setup27_RPi_ST7796_ESP32.h>    // ESP32   RPi MHS-4.0 inch Display-B
+
+//#include <User_Setups/Setup27tk_1_8Round_ST77916_ESP32.h>
+
 //#include <User_Setups/Setup28_RPi_ST7796_ESP8266.h>  // ESP8266 RPi MHS-4.0 inch Display-B
 
 //#include <User_Setups/Setup29_ILI9341_STM32.h>          // Setup for Nucleo board
@@ -271,6 +274,10 @@
 #elif defined (HX8357C_DRIVER)
      #include "TFT_Drivers/HX8357C_Defines.h"
      #define  TFT_DRIVER 0x835C
+#elif defined (ST77916_DRIVER)
+     #include "TFT_Drivers/ST77916_Defines.h"
+     #define  TFT_DRIVER 0x835D
+
 
                               // <<<<<<<<<<<<<<<<<<<<<<<< ADD NEW DRIVER HERE
                               // XYZZY_init.h and XYZZY_rotation.h must also be added in TFT_eSPI.cpp
