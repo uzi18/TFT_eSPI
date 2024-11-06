@@ -128,10 +128,10 @@
 	writedata(0xA5);    
 
 	writecommand(0xDD); 
-	writedata(0x35);    
+	writedata(0x3F);    
 
 	writecommand(0xDE); 
-	writedata(0x35);    
+	writedata(0x3F);    
 
 	writecommand(0xF1); 
 	writedata(0x10);    
@@ -182,7 +182,7 @@
 	writedata(0x10);    
 
 	writecommand(0xE0); 
-	writedata(0x0A);    
+	writedata(0x08);    
 
 	writecommand(0xE1); 
 	writedata(0x00);    
@@ -329,19 +329,19 @@
 
 //0x80
 	writecommand(0x80); 
-	writedata(0x38);    
+	writedata(0x48);    
 
 	writecommand(0x81); 
 	writedata(0x00);    
 
 	writecommand(0x82); 
-	writedata(0x04);    
+	writedata(0x05);    
 
 	writecommand(0x83); 
 	writedata(0x02);    
 
 	writecommand(0x84); 
-	writedata(0xDC);    
+	writedata(0xDD);    
 
 	writecommand(0x85); 
 	writedata(0x00);    
@@ -353,19 +353,19 @@
 	writedata(0x00);    
 
 	writecommand(0x88); 
-	writedata(0x38);    
+	writedata(0x48);    
 
 	writecommand(0x89); 
 	writedata(0x00);    
 
 	writecommand(0x8A); 
-	writedata(0x06);    
+	writedata(0x07);    
 
 	writecommand(0x8B); 
 	writedata(0x02);    
 
 	writecommand(0x8C); 
-	writedata(0xDE);    
+	writedata(0xDF);    
 
 	writecommand(0x8D); 
 	writedata(0x00);    
@@ -379,19 +379,19 @@
 
 //0x90
 	writecommand(0x90); 
-	writedata(0x38);    
+	writedata(0x48);    
 
 	writecommand(0x91); 
 	writedata(0x00);    
 
 	writecommand(0x92); 
-	writedata(0x08);    
+	writedata(0x09);    
 
 	writecommand(0x93); 
 	writedata(0x02);    
 
 	writecommand(0x94); 
-	writedata(0xE0);    
+	writedata(0xE1);    
 
 	writecommand(0x95); 
 	writedata(0x00);    
@@ -403,19 +403,19 @@
 	writedata(0x00);    
 
 	writecommand(0x98); 
-	writedata(0x38);    
+	writedata(0x48);    
 
 	writecommand(0x99); 
 	writedata(0x00);    
 
 	writecommand(0x9A); 
-	writedata(0x0A);    
+	writedata(0x0B);    
 
 	writecommand(0x9B); 
 	writedata(0x02);    
 
 	writecommand(0x9C); 
-	writedata(0xE2);    
+	writedata(0xE3);    
 
 	writecommand(0x9D); 
 	writedata(0x00);    
@@ -436,13 +436,13 @@
 	writedata(0x00);    
 
 	writecommand(0xA2); 
-	writedata(0x03);    
+	writedata(0x04);    
 
 	writecommand(0xA3); 
 	writedata(0x02);    
 
 	writecommand(0xA4); 
-	writedata(0xDB);    
+	writedata(0xDC);    
 
 	writecommand(0xA5); 
 	writedata(0x00);    
@@ -454,19 +454,19 @@
 	writedata(0x00);    
 
 	writecommand(0xA8); 
-	writedata(0x38);    
+	writedata(0x48);    
 
 	writecommand(0xA9); 
 	writedata(0x00);    
 
 	writecommand(0xAA); 
-	writedata(0x05);    
+	writedata(0x06);    
 
 	writecommand(0xAB); 
 	writedata(0x02);    
 
 	writecommand(0xAC); 
-	writedata(0xDD);    
+	writedata(0xDE);    
 
 	writecommand(0xAD); 
 	writedata(0x00);    
@@ -482,19 +482,19 @@
 
 //0xB0
 	writecommand(0xB0); 
-	writedata(0x38);    
+	writedata(0x48);    
 
 	writecommand(0xB1); 
 	writedata(0x00);    
 
 	writecommand(0xB2); 
-	writedata(0x07);    
+	writedata(0x08);    
 
 	writecommand(0xB3); 
 	writedata(0x02);    
 
 	writecommand(0xB4); 
-	writedata(0xDF);    
+	writedata(0xE0);    
 
 	writecommand(0xB5); 
 	writedata(0x00);    
@@ -506,19 +506,19 @@
 	writedata(0x00);    
 
 	writecommand(0xB8); 
-	writedata(0x38);    
+	writedata(0x48);    
 
 	writecommand(0xB9); 
 	writedata(0x00);    
 
 	writecommand(0xBA); 
-	writedata(0x09);    
+	writedata(0x0A);    
 
 	writecommand(0xBB); 
 	writedata(0x02);    
 
 	writecommand(0xBC); 
-	writedata(0xE1);    
+	writedata(0xE2);    
 
 	writecommand(0xBD); 
 	writedata(0x00);    
@@ -533,7 +533,7 @@
 
 //0xC0
 	writecommand(0xC0); 
-	writedata(0x22);    
+	writedata(0x12);    
 
 	writecommand(0xC1); 
 	writedata(0xAA);    
@@ -566,7 +566,7 @@
 
 //0xD0
 	writecommand(0xD0); 
-	writedata(0x21); //21);    
+	writedata(0x21);
 
 	writecommand(0xD1); 
 	writedata(0xAA);    
@@ -608,10 +608,9 @@
 	writecommand(0xF1); 
 	writedata(0x01);    
 
+//
 	writecommand(0xA0); 
 	writedata(0x0B);    
-
-//
 	writecommand(0xA3); 
 	writedata(0x2A);    
 	writecommand(0xA5); 
@@ -629,20 +628,6 @@
 	writecommand(0xA5); 
 	writedata(0xC3);    
 	delay(1);
-
-
-	writecommand(0xA3); 
-	writedata(0x2B);    
-	writecommand(0xA5); 
-	writedata(0xC3);    
-	delay(1);
-	
-	writecommand(0xA3); 
-	writedata(0x2C);   
-	writecommand(0xA5); 
-	writedata(0xC3);    
-	delay(1);
-
 
 	writecommand(0xA3); 
 	writedata(0x2D);   
